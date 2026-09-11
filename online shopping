@@ -1,0 +1,23 @@
+# Online Shopping 
+#To choose the lowest priced amongst three sites
+fp=int(input())
+fd=int(input())
+fs=int(input())
+sp=int(input())
+sd=int(input())
+ss=int(input())
+ap=int(input())
+ad=int(input())
+ams=int(input())
+flip = fp-(fp*fd/100)+fs
+snap = sp-(sp*sd/100)+ss
+amazon=ap-(ap*ad/100)+ams
+print("In Flipkart: Rs.",int(flip),sep="")
+print("In Snapdeal: Rs.",int(snap),sep="")
+print("In Amazon: Rs.",int(amazon),sep="")
+if flip<=snap and flip<=amazon:
+    print("Choose Flipkart")
+elif snap<=flip and snap<=amazon:
+    print("Choose Snapdeal")
+else:
+    print("Choose Amazon")
