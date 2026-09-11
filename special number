@@ -1,0 +1,9 @@
+# To find the given number is a special number n= 19 10+9=19 (special)
+m = int(input())
+n=int(input())
+
+for i in range (m,n+1):
+    a = i//10
+    b = i%10
+    if a+b+a*b==i:
+        print(i)
