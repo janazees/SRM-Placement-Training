@@ -1,0 +1,5 @@
+# Tic tac toe
+n=int(input())
+row = (n-1)//3
+col = (n-1)%3
+print(row,col)
