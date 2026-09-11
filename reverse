@@ -1,0 +1,14 @@
+# Reversing three digit number
+n = int(input())
+
+a = n % 10
+n = n // 10
+
+b = n % 10
+n = n // 10
+
+c = n % 10
+
+reverse = a * 100 + b * 10 + c
+
+print(reverse)
