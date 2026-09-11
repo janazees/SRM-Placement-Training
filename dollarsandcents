@@ -1,0 +1,10 @@
+# to add dollars and cents
+d1 = int(input())
+c1 = int(input())
+d2 = int(input())
+c2 = int(input())
+cents = c1+c2
+dollar = d1+d2+cents//100 
+cents = cents%100
+print(dollar)
+print(cents)
