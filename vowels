@@ -1,0 +1,8 @@
+# To Find if the given character is a vowel or a consonant
+char = input().strip()
+if char.lower() in "aeiou":
+    print("Vowel")
+elif char.isalpha():
+    print("Consonant")
+else:
+    print("Not an alphabet")
